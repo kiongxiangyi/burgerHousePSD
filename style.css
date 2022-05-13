@@ -43,29 +43,32 @@
   padding: 10px;
   color: white;
   text-align: left;
-  font-size: 10px;
+  font-size: calc(.5rem + 1vw);
+  font-family: "Bebas Neue";
 }
 
 .textover h4 {
   position: absolute;
-  top: 35px;
+  top: 45px;
   left: 0;
-  font-size: 15px;
+  font-size: calc(1rem + 1vw);
   width: 100%;
   padding: 10px;
   color: white;
   text-align: left;
+  font-family: "Bebas Neue";
 }
 
 .textover h5 {
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 0;
-  font-size: 15px;
+  font-size: calc(1rem + 1vw);
   width: 100%;
   padding: 10px;
   color: white;
   text-align: left;
+  font-family: "Bebas Neue";
 }
 
 .buttontext h3 {
@@ -75,7 +78,8 @@
   border: solid orange;
   background: orange;
   width: fit-content;
-  font-size: 15px;
+  font-size: calc(1rem + 1vw);
+  font-family: "Bebas Neue";
 }
 
 /* Paul START */

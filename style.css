@@ -1,3 +1,66 @@
+/* Paul START */
+header {
+    background-image: url("./images/section1/one-background.png");
+    background-size: auto;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 7rem;
+}
+.navbar {
+    margin: 0;
+}
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-2 {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;   
+}
+.nav-2 li {
+    margin-left: 2rem;
+}
+
+ #motorcycle {
+    width: auto;
+    height: 30px;
+}
+#delivery {
+    display: flex;
+}
+
+#one {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+}
+.one-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3D2514;
+    text-shadow: 4px 4px white;
+}
+#one-burger {
+    font-size: 8em;
+}
+#one-week {
+    font-size: 4em;
+}
+#one-subtitle {
+    color: #3D2514;
+    font-size: 1.2em;
+    border: 4px dashed #3D2514;
+    padding: .5rem;
+}
+
+#burger-menu {
+    width: 55rem;
+}
+/* Paul END */
+
 /* Rainer START */
 
 #five input, button {
@@ -37,5 +100,3 @@ input[type="text"]::placeholder {
   }
 
 /* Rainer END */
-
-  

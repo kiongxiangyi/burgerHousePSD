@@ -208,7 +208,7 @@ input[type="text"]::placeholder {
 */
 
 #six {
-  height: 50vh;
+  height: 800px;
   background-image: url("./images/section6/footer_backgroud_image.png");
   background-size: cover;
   background-repeat: no-repeat;

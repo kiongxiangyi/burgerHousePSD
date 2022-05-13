@@ -1,0 +1,36 @@
+header {
+    background-image: url("./images/section1/one-background.png");
+    background-size: auto;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+.navbar {
+    margin: 0;
+}
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-2 {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;   
+}
+.nav-2 li {
+    margin-left: 2rem;
+}
+
+ #motorcycle {
+    width: auto;
+    height: 30px;
+}
+#delivery {
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    float: left;
+
+}

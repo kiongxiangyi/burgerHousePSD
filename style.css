@@ -5,6 +5,10 @@
   color: black;
 }
 
+.four-container {
+    text-align: left;
+}
+
 /* Top left text */
 .top-left {
   position: absolute;
@@ -166,7 +170,7 @@ header {
     text-align: center;
 }
 
-#three p {
+.three-p {
     text-align: center;
     width: 60%;
     margin: auto;

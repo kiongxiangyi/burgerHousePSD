@@ -29,8 +29,26 @@ header {
     display: flex;
 }
 
-#toolbar {
+#one {
+    margin-top: 4rem;
     display: flex;
-    float: left;
-
+    justify-content: space-between;
+    align-items: center;
+}
+.one-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3D2514;
+    text-shadow: 4px 4px white;
+}
+#one-burger {
+    font-size: 8em;
+}
+#one-week {
+    font-size: 4em;
+}
+#one-subtitle {
+    color: #3D2514;
+    font-size: 1.2em;
+    border: 5px dotted #3D2514;
+    text-align: center;
 }

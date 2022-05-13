@@ -135,7 +135,7 @@ header {
     font-size: 4em;
 }
 #one-subtitle {
-    font-family: 'Bebas Neue', cursive;;
+    font-family: 'Bebas Neue', cursive;
     color: #3D2514;
     font-size: 1.2em;
     border: 4px dashed #3D2514;
@@ -147,6 +147,59 @@ header {
 #burger-menu {
     width: 55rem;
 }
+
+#three {
+    margin-top: 2rem;
+    color:#3D2514; 
+    margin-bottom: 2rem
+}
+
+#three h2 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+#three h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+#three p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#three .container-fluid {
+    margin-top: 2rem;
+}
+#three .col {
+    justify-content: center;
+}
+
+#three .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#three img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.three-button {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 0;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Paul END */
 
 /* Rainer START */

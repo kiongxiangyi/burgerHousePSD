@@ -1,183 +1,189 @@
-
-
 /* Container holding the image and the text */
 .container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
+  position: relative;
+  text-align: center;
+  color: black;
+}
 
 /* Top left text */
 .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 
 .row {
-    display: flex;
-    padding: 0 50px;
-    
+  display: flex;
+  padding: 0 50px;
 }
 /* Create two equal columns that sits next to each other */
 .column {
-    max-width: 50%; 
-    
-} 
+  max-width: 50%;
+}
 
 .column img {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
 /* (B) RESPONSIVE IMAGE */
-.textover img { width: 100%; }
+.textover img {
+  width: 100%;
+}
 
 /* (C) POSITION CAPTION */
-.textover { position: relative; } /* REQUIRED */
+.textover {
+  position: relative;
+} /* REQUIRED */
 .textover h3 {
   position: absolute;
   top: 25px;
   left: 0;
-/* (D) CAPTION COSMETICS */
-    width: 100%;
-    padding: 10px;
-    color: white;
-    text-align: left;
-    font-size: 10px;
-    
+  /* (D) CAPTION COSMETICS */
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  font-size: 10px;
 }
 
 .textover h4 {
-    position: absolute;
-    top: 35px;
-    left: 0;
-    font-size: 15px;
-    width: 100%;
-    padding: 10px;
-    color: white;
-    text-align: left;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
 }
 
 .textover h5 {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    font-size: 15px;
-    width: 100%;
-    padding: 10px;
-    color: white;
-    text-align: left;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
 }
 
 .buttontext h3 {
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid orange;
-    background: orange;
-    width: fit-content;
-    font-size: 15px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid orange;
+  background: orange;
+  width: fit-content;
+  font-size: 15px;
 }
 
 /* Paul START */
 header {
-    background-image: url("./images/section1/one-background.png");
-    background-size: auto;
-    padding-top: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 7rem;
+  background-image: url("./images/section1/one-background.png");
+  background-size: auto;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 7rem;
 }
 .navbar {
-    margin: 0;
+  margin: 0;
 }
 .nav-1 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .nav-2 {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;   
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 .nav-2 li {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
- #motorcycle {
-    width: auto;
-    height: 30px;
+#motorcycle {
+  width: auto;
+  height: 30px;
 }
 #delivery {
-    display: flex;
+  display: flex;
 }
 
 #one {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 4rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
 }
 .one-heading {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #3D2514;
-    text-shadow: 4px 4px white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #3d2514;
+  text-shadow: 4px 4px white;
 }
 #one-burger {
-    font-size: 8em;
+  font-size: 8em;
 }
 #one-week {
-    font-size: 4em;
+  font-size: 4em;
 }
 #one-subtitle {
-    color: #3D2514;
-    font-size: 1.2em;
-    border: 4px dashed #3D2514;
-    padding: .5rem;
+  color: #3d2514;
+  font-size: 1.2em;
+  border: 4px dashed #3d2514;
+  padding: 0.5rem;
 }
 
 #burger-menu {
-    width: 55rem;
+  width: 55rem;
 }
 /* Paul END */
 
 /* Rainer START */
 
-#five input, button {
-    display: block;
-    width: 90%;
-    margin: 3% 20px;
-    height: 60px;
-    border-radius: 10px;
+#five input,
+button {
+  display: block;
+  width: 90%;
+  margin: 3% 20px;
+  height: 60px;
+  border-radius: 10px;
 }
 
-input[type="text"]::placeholder {  
-    padding-left: 10px; 
-} 
+input[type="text"]::placeholder {
+  padding-left: 10px;
+}
 
 #five h2 {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 #five h3 {
-    margin-top: 20%;
-}    
-  
+  margin-top: 20%;
+}
 
 #five {
-    height: 100vh;
-    background-image: url(./images/section5/burger.png),
-                      url(./images/section5/bottle.png),
-                      url(./images/section5/image.png);
-    background-size: 30vw 30vw,
-                     300px 500px,
-                     1000px 1000px;
-    background-position: -150px -100px,
-                          20% center, 
-                          120% bottom;  
-    background-repeat: no-repeat,
-                       no-repeat; 
-  }
+  height: 100vh;
+  background-image: url(./images/section5/burger.png),
+    url(./images/section5/bottle.png), url(./images/section5/image.png);
+  background-size: 30vw 30vw, 300px 500px, 1000px 1000px;
+  background-position: -150px -100px, 20% center, 120% bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#six {  
+  height: 50vh;
+  background-image: url("./images/section6/footer_backgroud_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 0rem;
+  margin-left : 7rem;
+  margin-right: 7rem;
+}
 
 /* Rainer END */

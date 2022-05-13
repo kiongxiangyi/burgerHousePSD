@@ -39,7 +39,7 @@ header {
     padding-left: 4rem;
 }
 .one-heading {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     color: #3D2514;
     text-shadow: 4px 4px white;
 }
@@ -50,6 +50,7 @@ header {
     font-size: 4em;
 }
 #one-subtitle {
+    font-family: 'Bebas Neue', cursive;;
     color: #3D2514;
     font-size: 1.2em;
     border: 4px dashed #3D2514;

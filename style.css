@@ -179,6 +179,7 @@ input[type="text"]::placeholder {
   font-family: "Alfa Slab One", cursive;
 }
 
+/*
 #five {
   height: 100vh;
   background-image: url(./images/section5/burger.png),
@@ -187,9 +188,31 @@ input[type="text"]::placeholder {
   background-position: -150px -100px, 20% center, 120% bottom;
   background-repeat: no-repeat, no-repeat;
 }
+*/
+
+
+#five {
+    height: 100vh;
+    background-image: url(./images/section5/burger.png),
+     url(./images/section5/image.png);
+    background-size: 30vw 30vw, 1000px 1000px;
+    background-position: -150px -100px, 120% bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+#five .img-fluid {
+    width: 500px;
+    height: 350px;
+}
+
+/*
+#five * {
+    border: 1px solid red;
+}
+*/
 
 #six {
-  height: 50vh;
+  height: 800px;
   background-image: url("./images/section6/footer_backgroud_image.png");
   background-size: cover;
   background-repeat: no-repeat;

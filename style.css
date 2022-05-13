@@ -12,7 +12,7 @@
   left: 16px;
 }
 
-.row {
+#two .row {
   display: flex;
   padding: 0 50px;
 }

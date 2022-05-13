@@ -1,3 +1,4 @@
+/* Paul START */
 header {
     background-image: url("./images/section1/one-background.png");
     background-size: auto;
@@ -58,3 +59,44 @@ header {
 #burger-menu {
     width: 55rem;
 }
+/* Paul END */
+
+/* Rainer START */
+
+#five input, button {
+    display: block;
+    width: 90%;
+    margin: 3% 20px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+input[type="text"]::placeholder {  
+    padding-left: 10px; 
+} 
+
+#five h2 {
+    margin-bottom: 5%;
+}
+
+#five h3 {
+    margin-top: 20%;
+}    
+  
+
+#five {
+    height: 100vh;
+    background-image: url(./images/section5/burger.png),
+                      url(./images/section5/bottle.png),
+                      url(./images/section5/image.png);
+    background-size: 30vw 30vw,
+                     300px 500px,
+                     1000px 1000px;
+    background-position: -150px -100px,
+                          20% center, 
+                          120% bottom;  
+    background-repeat: no-repeat,
+                       no-repeat; 
+  }
+
+/* Rainer END */

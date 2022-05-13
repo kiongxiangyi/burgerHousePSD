@@ -17,24 +17,24 @@
   padding: 0 50px;
 }
 /* Create two equal columns that sits next to each other */
-.column {
+#two .column {
   max-width: 50%;
 }
 
-.column img {
+#two .column img {
   margin-top: 22px;
 }
 
 /* (B) RESPONSIVE IMAGE */
-.textover img {
+#two .textover img {
   width: 100%;
 }
 
 /* (C) POSITION CAPTION */
-.textover {
+#two .textover {
   position: relative;
 } /* REQUIRED */
-.textover h3 {
+#two .textover h3 {
   position: absolute;
   top: 25px;
   left: 0;
@@ -47,7 +47,7 @@
   font-family: "Bebas Neue";
 }
 
-.textover h4 {
+#two .textover h4 {
   position: absolute;
   top: 45px;
   left: 0;
@@ -59,7 +59,7 @@
   font-family: "Bebas Neue";
 }
 
-.textover h5 {
+#two .textover h5 {
   position: absolute;
   top: 70px;
   left: 0;
@@ -71,7 +71,7 @@
   font-family: "Bebas Neue";
 }
 
-.buttontext h3 {
+#two .buttontext h3 {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;

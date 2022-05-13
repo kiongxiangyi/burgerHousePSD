@@ -275,6 +275,7 @@ input[type="text"]::placeholder {
   padding-bottom: 0rem;
   margin-left: 7rem;
   margin-right: 7rem;
+  margin-bottom: 3rem;
 }
 
 /* Rainer END */

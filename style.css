@@ -86,7 +86,9 @@ header {
     padding-top: 4rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-bottom: 7rem;
+    padding-bottom: 7rem;   
+    font-family: 'Bebas Neue', cursive;
+    color: #3D2514;
 }
 .navbar {
     margin: 0;
@@ -94,11 +96,13 @@ header {
 .nav-1 {
     display: flex;
     justify-content: space-between;
+    font-size: 1.2em;
 }
 .nav-2 {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;   
+    font-size: 1.5em;
 }
 .nav-2 li {
     margin-left: 2rem;
@@ -120,7 +124,7 @@ header {
     padding-left: 4rem;
 }
 .one-heading {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     color: #3D2514;
     text-shadow: 4px 4px white;
 }
@@ -131,10 +135,13 @@ header {
     font-size: 4em;
 }
 #one-subtitle {
+    font-family: 'Bebas Neue', cursive;;
     color: #3D2514;
     font-size: 1.2em;
     border: 4px dashed #3D2514;
-    padding: .5rem;
+    padding: .5em;
+    text-align: center;
+    width: 60%;
 }
 
 #burger-menu {
